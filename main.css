@@ -1,0 +1,31 @@
+body{
+  background-color: black;
+}
+
+h1 {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+ -webkit-background-clip: text;
+  color: transparent;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img {
+  align-self: center;
+  width: 25vw;
+  margin: 1vw;
+}
